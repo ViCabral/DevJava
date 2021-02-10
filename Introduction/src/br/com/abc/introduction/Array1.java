@@ -1,3 +1,5 @@
+package br.com.abc.introduction;
+
 public class Array1 {
     public static void main(String[] args) {
         int[] idade = new int[3];
@@ -11,7 +13,7 @@ public class Array1 {
         for (int i:
              idades){
             System.out.println(i);
-            
+
         }
 
     }

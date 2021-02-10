@@ -1,8 +1,10 @@
+package br.com.abc.introduction;
+
 import java.util.Scanner;
 
 public class Salario {
     public static void main(String[] args) {
-        System.out.println("Digite o Salario");
+       // System.out.println("Digite o salario");
         Scanner input = new Scanner(System.in);
         int salario = input.nextInt();  // Create a Scanner object
 

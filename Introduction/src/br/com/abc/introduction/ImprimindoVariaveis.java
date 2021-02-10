@@ -1,3 +1,5 @@
+package br.com.abc.introduction;
+
 public class ImprimindoVariaveis {
     // Comentario em linha
 
