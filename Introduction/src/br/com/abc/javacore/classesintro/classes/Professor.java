@@ -1,4 +1,4 @@
-package br.com.abc.javacore.classes;
+package br.com.abc.javacore.classesintro.classes;
 
 // Exercicio aula 25, Introdução a classes
 public class Professor {

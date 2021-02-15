@@ -4,7 +4,7 @@ public class Estudante {
     private String nome;
     private String idade;
     private double notas[];
-
+    private boolean aprovado;
 
     public void imprime(){
         System.out.println(this.nome);
@@ -26,8 +26,10 @@ public class Estudante {
         if(((soma/(this.notas.length)) >= 0) && ((soma/(this.notas.length)) <= 10)) {
             if ((soma / (this.notas.length)) >= 5) {
                 System.out.println("Aluno Aprovado");
+                this.aprovado = true;
             } else if ((soma / (this.notas.length)) < 5){
                 System.out.println("Aluno Reprovado");
+                this.aprovado = false;
             }
         }else System.out.println("Erro com a média");
     }
@@ -50,6 +52,13 @@ public class Estudante {
     }
     public double[] getNotas(){
         return this.notas;
+    }
+
+    /*public void setAprovado(boolean aprovado){
+        this.aprovado = aprovado;
+    }*/ //Não podemos setar o valor por causa de erros
+    public boolean isAprovado(){
+        return this.aprovado;
     }
 }
 

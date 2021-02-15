@@ -1,6 +1,6 @@
-package br.com.abc.javacore.news;
+package br.com.abc.javacore.classesintro.test;
 
-import br.com.abc.javacore.classes.Professor;
+import br.com.abc.javacore.classesintro.classes.Professor;
 
 // Criação de dois objetos utilizando uma mesma classe
 public class ProfessorTest {

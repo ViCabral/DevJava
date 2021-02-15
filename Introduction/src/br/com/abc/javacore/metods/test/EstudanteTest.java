@@ -15,8 +15,8 @@ public class EstudanteTest {
 
         aluno.imprime();
         aluno.media();
-        
         System.out.println(aluno.getNome());
+        System.out.println(aluno.isAprovado());
 
     }
 }

@@ -1,4 +1,4 @@
-package br.com.abc.javacore.classes;
+package br.com.abc.javacore.classesintro.classes;
 
 public class Estudante {
     public String nome;
