@@ -10,5 +10,12 @@ public class CalculadoraTest {
         calc.multiplicaDoisNumeros(5,5);
         System.out.println("Foi");
         System.out.println(calc.divideDoisNumeros(20, 2));
+
+        int [] numeros = {1, 2, 3, 4 , 5};
+        calc.somaArray(numeros);
+        calc.somaVarArgs(numeros);
+        calc.somaVarArgs(1, 2, 3, 4, 5, 6);
+
+
     }
 }
